@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+C:\Users\Saonara\Documents\GitHub\rotativo_digital\Rotativo digital\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1503359774.index
+190888927.index
+3335431494.index
+387413551.index
+1505678880.index
