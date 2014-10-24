@@ -1,27 +1,71 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	font-family: Arial;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
-	background-color: #3300CC;
+	background-color: #1727D6;
+	padding: 0px;
+	margin: 0px;
 }
 
 .cabecalho{
-  position: relative;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 80px;
-
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 110px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 10px;
+	float: left;
+	clear: both;
 }
 
+
+.rodape{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	font-size: 11px;
+	color: #FFF;
+	
+}
+
+.cabecalho p {
+	position:absolute;
+	font-size: 65px;
+	color: #FFF;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 5px;
+	top:-30px;
+	left: 0px;
+	visibility: visible;
+	
+}
 .central{
 	background-color: #ffffff;
 	position: relative;
-  	top: 80px;
-  	left: 0px;
-  	width: 100%;
+	top: 0px;
+	left: 0px;
+	min-height:400px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	padding: 10px;
+	margin: 0px;
+	clear: both;
 }
+
+.rodape, .central, .rodape{
+    float:left;
+    clear:left;
+}
+
+
+
 
 #loginQuadro {
 	position: relative;
@@ -31,11 +75,14 @@ body {
 	right: -25%;
 }
 
-#titulo {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 80px;
-	font-style: normal;
-	font-weight: bold;
-	color: #FFF;
-}
 
+.tlogin{
+	
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	}

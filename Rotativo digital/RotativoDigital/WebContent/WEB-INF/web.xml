@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee">
+	<display-name>Rancho</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>LoginAndroidServlet</servlet-name>
+		<servlet-class>br.edu.una.tidir4.Rotativo.Servlets.LoginAndroidServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginAndroidServlet</servlet-name>
+		<url-pattern>/JSP/LOGIN/EventosAlunoServlet</url-pattern>
+	</servlet-mapping>
+		
+</web-app>

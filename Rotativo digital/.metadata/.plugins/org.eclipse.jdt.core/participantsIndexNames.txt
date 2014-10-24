@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+C:\Users\Geraldo\git\rotativo_digital\Rotativo digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3093156880.index
+\RotativoDigital\src
+C:\Users\Geraldo\git\rotativo_digital\Rotativo digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3384795419.index
+\RotativoDigital\src
